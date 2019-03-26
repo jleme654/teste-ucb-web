@@ -1,3 +1,22 @@
+#gitignore julio
+.settings/*
+.classpath
+.project
+target/*
+
+
+CONTRIBUTING.adoc
+LICENSE.code.txt
+LICENSE.writting.txt
+.travis.yml
+README.adoc
+LI*
+complete/*
+test/*
+initial/target/*
+initial/.classpath
+
+
 # Compiled class file
 *.class
 
