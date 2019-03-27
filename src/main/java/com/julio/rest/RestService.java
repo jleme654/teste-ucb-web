@@ -29,8 +29,8 @@ public class RestService {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getById() {
+		System.out.println("aqui");
 		final List<ContaVO> tutorials = tutorialService.getAllContas();
-		
 		return Response.ok(tutorials).build();
 	}
 
@@ -44,6 +44,7 @@ public class RestService {
 
 	@RequestMapping(value = "/allcontas", method = RequestMethod.GET)
 	public ResponseEntity<List<ContaVO>> listar() {
+		System.out.println("aqui de novo");
 		List<ContaVO> body = HelperUtils.getAllContas();
 		HttpStatus status = HttpStatus.OK;
 		return new ResponseEntity<List<ContaVO>>(body, status);
