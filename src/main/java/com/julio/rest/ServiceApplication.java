@@ -1,6 +1,5 @@
 package com.julio.rest;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
@@ -11,9 +10,9 @@ import com.julio.vo.ContaVO;
 import org.springframework.stereotype.Service;
 
 @Service
-public class Service {
+public class ServiceApplication {
 	
-	private final List<ContaVO> contas = new ArrayList<>();
+	private List<ContaVO> contas;
 	
 	@PostConstruct
 	public void init() {
