@@ -1,4 +1,4 @@
-package vo;
+package com.julio.vo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 /**

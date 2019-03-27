@@ -1,4 +1,4 @@
-package enums;
+package com.julio.enums;
 
 /**
  * 

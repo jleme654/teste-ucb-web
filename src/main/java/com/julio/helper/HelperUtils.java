@@ -1,13 +1,13 @@
-package helper;
+package com.julio.helper;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
 
-import enums.TipoPessoaEnum;
-import vo.ContaVO;
-import vo.PFisicaVO;
-import vo.PJuridicaVO;
-import vo.PessoaVO;
+import com.julio.enums.TipoPessoaEnum;
+import com.julio.vo.ContaVO;
+import com.julio.vo.PFisicaVO;
+import com.julio.vo.PJuridicaVO;
+import com.julio.vo.PessoaVO;
 
 public class HelperUtils {
 	
